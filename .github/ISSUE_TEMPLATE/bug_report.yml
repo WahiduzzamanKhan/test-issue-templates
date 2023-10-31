@@ -1,5 +1,5 @@
-name: New Feature
-description: Suggest or request a new feature
+name: Bug Report
+description: Report a new bug
 labels: ["enhancement"]
 title: "[Feature]: "
 body:
