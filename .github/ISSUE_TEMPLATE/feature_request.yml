@@ -18,8 +18,8 @@ body:
       placeholder: It will allow to do Y that is needed for Z
   - type: textarea
     attributes:
-      label: Additional context
-      placeholder: Add any other context or screenshots about the feature request here.
+      label: Additional context (optional)
+      placeholder: Put here any other information such as screenshots or videos or links that you think is necessary.
   - type: textarea
     attributes:
       label: If you have a timeframe/deadline in mind for this feature, please specify it below
