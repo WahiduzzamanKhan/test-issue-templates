@@ -5,10 +5,10 @@ title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: Please fill out the form to properly describe the new feature you are suggesting.
+      value: Please fill out this form to help us reproduce the bug and fix it.
   - type: textarea
     attributes:
-      label: Describe the feature
-      placeholder: A button in the screen X that allows to do Y
+      label: Describe the issue
+      placeholder: When I do {something}, {something weird} happens
     validations:
       required: true
