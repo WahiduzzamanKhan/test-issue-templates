@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report a bug
+labels: ["bug", "triage"]
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Please fill out this form to help us reproduce the bug and fix it.
+  - type: textarea
+    attributes:
+      label: Describe the issue
+      description: Explain the issue you are facing in details
+      placeholder: When I do {something}, {something weird} happens
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: What was expected?
+      description: Explain the results you expected
+      placeholder: I expected {this} to happen
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce the issue
+      description: Provide a step by step guide on how to reproduce the issue
+      placeholder: |
+        1. Go to page X
+        2. Click here
+        3. Click there
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Put here any other information such as screenshots or videos or links that you think is necessary (optional)
+  - type: markdown
+    attributes:
+      value: Thanks for reporting the bug! We will reach out to you as soon as possible.
