@@ -1,29 +1,8 @@
 name: Bug Report
 description: Report a new bug
-labels: ["enhancement"]
-title: "[Feature]: "
+labels: ["bug"]
+title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: Please fill out the form to properly describe the new feature you are suggesting.
-  - type: textarea
-    attributes:
-      label: Describe the feature
-      placeholder: A button in the screen X that allows to do Y
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: It should be implemented because
-      placeholder: It will allow to do Y that is needed for Z
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Add any other context or screenshots about the feature request here.
-  - type: textarea
-    attributes:
-      label: If you have a timeframe/deadline in mind for this feature, please specify it below
-      placeholder: This feature needs to be implemented before yyyy-mm-dd
-  - type: markdown
-    attributes:
-      value: Thanks for your suggestion! Let's see together if it can be implemented.
+      value: Please fill out this form to help us reproduce the bug and fix it.
