@@ -1,6 +1,11 @@
 name: Bug Report
 description: Report a new bug
+labels: ["bug"]
+title: "[Bug]: "
 body:
-  - type: markdown
+  - type: textarea
     attributes:
-      value: Please fill out the form to properly describe the new feature you are suggesting.
+      label: Describe the feature
+      placeholder: A button in the screen X that allows to do Y
+    validations:
+      required: true
