@@ -9,6 +9,7 @@ body:
   - type: textarea
     attributes:
       label: Describe the issue
+      description: Explain the issue you are facing in details
       placeholder: When I do {something}, {something weird} happens
     validations:
       required: true
