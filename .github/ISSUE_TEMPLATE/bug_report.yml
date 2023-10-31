@@ -5,4 +5,4 @@ title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: Please fill out this form to help us reproduce the bug and fix it.
+      value: Please fill out the form to properly describe the new feature you are suggesting.
