@@ -1,38 +1,29 @@
-name: Bug Report
-description: Report a new bug
-labels: ["bug"]
-title: "[Bug]: "
+name: New Feature
+description: Suggest or request a new feature
+labels: ["enhancement"]
+title: "[Feature]: "
 body:
   - type: markdown
     attributes:
-      value: Please fill out this form to help us reproduce the bug and fix it.
+      value: Please fill out the form to properly describe the new feature you are suggesting.
   - type: textarea
     attributes:
-      label: Describe the issue
-      description: Explain the issue you are facing in details
-      placeholder: When I do {something}, {something weird} happens
-      validations:
-        required: true
+      label: Describe the feature
+      placeholder: A button in the screen X that allows to do Y
+    validations:
+      required: true
   - type: textarea
     attributes:
-      label: What was expected?
-      description: Explain the results you expected
-      placeholder: I expected {this} to happen
-      validations:
-        required: true
+      label: It should be implemented because
+      placeholder: It will allow to do Y that is needed for Z
   - type: textarea
     attributes:
-      label: Steps to reproduce the issue
-      description: Provide a step by step guide on how to reproduce the issue
-      placeholder: |
-        1. Go to page X
-        2. Click here
-        3. Click there
-      validations:
-        required: true
+      label: Additional context
+      placeholder: Add any other context or screenshots about the feature request here.
   - type: textarea
     attributes:
-      label: Put here any other information such as screenshots or videos or links that you think is necessary (optional)
+      label: If you have a timeframe/deadline in mind for this feature, please specify it below
+      placeholder: This feature needs to be implemented before yyyy-mm-dd
   - type: markdown
     attributes:
-      value: Thanks for reporting the bug! We will reach out to you as soon as possible.
+      value: Thanks for your suggestion! Let's see together if it can be implemented.
