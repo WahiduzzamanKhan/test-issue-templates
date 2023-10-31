@@ -3,6 +3,9 @@ description: Report a new bug
 labels: ["bug"]
 title: "[Bug]: "
 body:
+  - type: markdown
+    attributes:
+      value: Please fill out the form to properly describe the new feature you are suggesting.
   - type: textarea
     attributes:
       label: Describe the feature
